@@ -1,0 +1,75 @@
+/* General Page Styling */
+body {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  color: white;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding-bottom: 80px; /* ensures space for footer */
+}
+
+/* Headings */
+h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+/* Card Containers */
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  border: none;
+  color: #000;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.btn-danger:hover {
+  background-color: #b52b3a;
+}
+
+/* Tables */
+.table {
+  color: black;
+  font-size: 0.95rem;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+/* Footer Styling */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0f0f0f;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.95rem;
+  border-top: 1px solid #444;
+  z-index: 1000;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+}
